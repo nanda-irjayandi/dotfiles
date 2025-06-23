@@ -8,5 +8,5 @@
 	path = zsh/plugins/zsh-vi-mode
 	url = https://github.com/jeffreytse/zsh-vi-mode
 [submodule "zsh/themes/powerlevel10k"]
-	path = zsh/themes/powerlevel10k
+	path = zsh/plugins/powerlevel10k
 	url = https://github.com/romkatv/powerlevel10k.git
