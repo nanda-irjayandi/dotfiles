@@ -81,9 +81,9 @@ echo "Linking .zshenv to point to dotfiles ZDOTDIR..."
 # Try to read symlink target (works only if ~/.zshenv is a symlink)
 LINK_TARGET=$(readlink "$HOME/.zshenv" 2>/dev/null || echo "")
 
-if [ "$LINK_TARGET" = "${SCRIPT_DIR}/zsh/.zshenv" ]; then
+if [ "$LINK_TARGET" = "${SCRIPT_DIR}/config/zsh/.zshenv" ]; then
     echo "  ...already linked correctly, skipping"
 else
-    ln -sf "${SCRIPT_DIR}/zsh/.zshenv" "$HOME/.zshenv"
-    echo "  ...linked ~/.zshenv -> ${SCRIPT_DIR}/zsh/.zshenv"
+    ln -sf "${SCRIPT_DIR}/config/zsh/.zshenv" "$HOME/.zshenv"
+    echo "  ...linked ~/.zshenv -> ${SCRIPT_DIR}/config/zsh/.zshenv"
 fi
