@@ -10,3 +10,6 @@
 [submodule "zsh/plugins/powerlevel10k"]
 	path = zsh/plugins/powerlevel10k
 	url = git@github.com:romkatv/powerlevel10k.git
+[submodule "zsh/plugins/autoenv"]
+	path = zsh/plugins/autoenv
+	url = git@github.com:hyperupcall/autoenv.git
