@@ -146,6 +146,7 @@ install_zsh() {
 }
 
 install_git() {
+	# isn't really that useful at this stage as this code already assume user to clone the repo via git anyway
 	if ! has_git; then
 		if has_brew; then
 			brew install git
